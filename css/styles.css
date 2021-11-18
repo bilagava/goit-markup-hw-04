@@ -188,6 +188,15 @@ img{
     color: var(--accent-color);
 }
 
+/* .mail::before{
+    display: block;
+    content: "";
+    height: 20px;
+    background-image: url(../images/icon/envelope.svg);
+    background-position: center;
+    background-repeat:no-repeat ;
+} */
+
 /* ------------------- HERO-------------------------- */
 
 .hero{
