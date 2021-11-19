@@ -267,11 +267,19 @@ img{
     justify-content: center;
 }
 
-.differences-item{
-    width: 270px;
-    height: 120px;
+
+.differences-item +.differences-item{
+    margin-left: 30px;
 }
 
+.differences-link{
+    display: flex;
+    padding: 25px 100px;
+    /* width: 270px; */
+    background: var(--third-background);
+    border-radius: 4px;
+    
+}
 /* .differences-item:not(:last-child){
     margin-right: 30px;} */
 
@@ -471,6 +479,10 @@ img{
     align-items: center;
     justify-content: center;
 } 
+.clients-link:hover,
+.clients-link:focus{
+    border: 1px solid var(--accent-color); 
+}
 
 /* -------------------FOOTER-------------------------- */
 
