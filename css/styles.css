@@ -193,15 +193,15 @@ img{
     color: var(--accent-color);
 }
 
-/* .mail::before{
-    display: flex;
-    align-items: center;
-    content: "";
-    height: 20px;
-    background-image: url(../images/icon/envelope.svg);
-    background-position: center;
-    background-repeat:no-repeat ;
-} */
+.envelope-icon{
+    margin-right: 10px;
+    fill: currentColor;
+}
+
+.smartphone-icon{
+    margin-right: 10px;
+    fill: currentColor;
+}
 
 /* ------------------- HERO-------------------------- */
 
@@ -541,15 +541,54 @@ img{
     color: var(--accent-color);
 }
 
-/* .footer-social-title{
+
+.footer-social-title{
+    display: flex;
+    justify-content:center;
+    margin-bottom: 20px;
+    margin-right: 61px;
     color: var(--main-title-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1,14;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-} */
+}
+.footer-social-list{
+    display: flex;
+    justify-content:center;
+    
+    
+}
 
+.footer-social-item{
+    width: 44px;
+    height: 44px;   
+}
+
+.footer-social-item +.footer-social-item{
+    margin-left: 10px;
+}
+
+.footer-social-link{
+    width: 100%;
+    height: 100%;
+    background-color:rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:var(--main-social-color)
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus{
+    background-color: var(--accent-color);
+    color:var(--sekond-social-color)
+}
+
+.footer-social-icon{
+    fill: currentColor;
 /* -------------------PORFOLIO-------------------------- */
 
 /* -------- BTN----------- */
