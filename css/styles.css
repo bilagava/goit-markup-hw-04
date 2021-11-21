@@ -445,12 +445,16 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+    color:var(--main-social-color);
 } 
 .clients-link:hover,
 .clients-link:focus{
     border: 1px solid var(--accent-color); 
+    color:var(--accent-color);
 }
-
+.clients-icon{
+    fill: currentColor;
+}
 /* -------------------FOOTER-------------------------- */
 
 .footer{
@@ -550,13 +554,13 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
-    color:var(--main-social-color)
+    color:var(--main-social-color);
 }
 
 .footer-social-link:hover,
 .footer-social-link:focus{
     background-color: var(--accent-color);
-    color:var(--sekond-social-color)
+    color:var(--sekond-social-color);
 }
 
 .footer-social-icon{
