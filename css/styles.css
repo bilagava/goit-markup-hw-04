@@ -157,6 +157,7 @@ img{
     line-height: 1.14;
     letter-spacing: 0.02em;
     color:var(--second-title-color);
+    /* position: relative; */
 }
 
 .header-link:hover,
@@ -167,6 +168,17 @@ img{
 .current{
     color: var(--accent-color);
 }
+
+/* .current::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 4px;
+    top:76px;
+    background: var(--accent-color);
+    border-radius: 2px;
+} */
 
 .contact-list{
     display: flex;
